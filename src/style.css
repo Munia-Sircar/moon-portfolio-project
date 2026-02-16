@@ -2,7 +2,7 @@
   --heading-font: "Playfair Display ", serif;
   --secondary-font: "Poppins", sans-serif;
   --primary-color: #6c63ff;
-  --secondary-color: #ebe4fd;
+  --secondary-color: #ede9fa;
 }
 
 h1,
@@ -21,13 +21,17 @@ h1 {
   font-size: 96px;
 }
 
-h2 {
+i {
+  margin: 20px;
+}
+
+.hero h2 {
   font-family: var(--secondary-font);
   font-weight: normal;
   font-size: 24px;
 }
 
-p {
+.hero p {
   font-family: var(--secondary-font);
   font-weight: bold;
   font-style: normal;
@@ -54,4 +58,19 @@ p {
   background-color: white;
   transition: ease-in-out 200ms;
   color: var(--primary-color);
+}
+
+.footer-info {
+  display: block;
+  margin: auto;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  max-width: 90%;
+  border-radius: 8px;
+}
+
+.icons {
+  color: #6c63ff;
+  font-size: 20px;
+  margin: 20px;
 }
