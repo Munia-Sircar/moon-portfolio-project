@@ -28,6 +28,7 @@ i {
 img {
   background-color: var(--secondary-color);
   padding: 20px;
+  border-radius: 8px;
 }
 
 .hero h2 {
@@ -70,7 +71,7 @@ img {
   margin: auto;
   background-color: var(--secondary-color);
   padding: 10px;
-  max-width: 90%;
+  max-width: 91%;
   border-radius: 8px;
 }
 
