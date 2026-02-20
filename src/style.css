@@ -5,6 +5,10 @@
   --secondary-color: #ede9fa;
 }
 
+body {
+  margin-bottom: 80px;
+}
+
 h1,
 h2,
 h3,
@@ -25,9 +29,24 @@ h2 {
   margin-top: 30px;
 }
 
+h3 {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+}
+
 p {
   font-family: var(--secondary-font);
   line-height: 30px;
+}
+
+i {
+  font-size: 25px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 50px;
+  padding: 12px 10px;
+  box-sizing: content-box;
+  margin-left: 25px;
 }
 
 .hero h2 {
@@ -71,6 +90,32 @@ p {
 
 .project-descriptions {
   margin: 20px;
+}
+
+.btn-inquiry {
+  background-color: var(--primary-color);
+  font-family: var(--secondary-font);
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  margin-left: 200px;
+}
+
+.footer-container {
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.footer-container p {
+  opacity: 60%;
+}
+
+.icons {
+  margin-top: 40px;
 }
 
 @media (max-width: 900px) {
