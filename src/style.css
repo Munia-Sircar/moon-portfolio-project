@@ -100,6 +100,7 @@ i {
   border-radius: 4px;
   color: white;
   text-decoration: none;
+  margin-top: 60px;
   margin-left: 200px;
 }
 
@@ -107,7 +108,6 @@ i {
   background-color: var(--secondary-color);
   border-radius: 8px;
   padding: 10px;
-  margin-top: 50px;
 }
 
 .footer-container p {
@@ -129,6 +129,15 @@ i {
     margin-top: 20px;
   }
 
+  footer h3 {
+    font-size: 20px;
+  }
+
+  i {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
   .hero h2 {
     font-size: 20px;
   }
@@ -143,5 +152,15 @@ i {
 
   .hero {
     padding: 35px;
+  }
+
+  .btn-inquiry {
+    display: flex;
+    margin: auto;
+  }
+
+  .footer-container {
+    display: flex;
+    margin: auto;
   }
 }
