@@ -104,6 +104,12 @@ i {
   margin-left: 200px;
 }
 
+.homepage-container {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
+
 .footer-container {
   background-color: var(--secondary-color);
   border-radius: 8px;
