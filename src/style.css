@@ -134,6 +134,7 @@ i {
 }
 
 .page-container h2 {
+  font-weight: bold;
   font-size: 64px;
   line-height: 1;
   margin-bottom: 30px;
@@ -151,6 +152,10 @@ i {
 
 .page-info {
   margin: 30px;
+}
+
+.active {
+  color: var(--primary-color) !important;
 }
 
 @media (max-width: 900px) {
@@ -207,5 +212,9 @@ i {
 
   .page-container h2 {
     font-size: 50px;
+  }
+
+  .navbar-brand {
+    margin-left: 0;
   }
 }
