@@ -129,27 +129,27 @@ i {
   margin-top: 40px;
 }
 
-.about-container {
+.page-container {
   padding: 100px 200px;
 }
 
-.about-container h2 {
+.page-container h2 {
   font-size: 64px;
   line-height: 1;
   margin-bottom: 30px;
 }
-.about-container h3 {
+.page-container h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 30px 0;
 }
-.about-container p {
+.page-container p {
   font-size: 16px;
   opacity: 60%;
   margin-bottom: 20px;
 }
 
-.about-info {
+.page-info {
   margin: 30px;
 }
 
@@ -198,14 +198,14 @@ i {
     display: flex;
     margin: auto;
   }
-  .about-container {
+  .page-container {
     display: flex;
     justify-content: center;
     padding: none;
     text-align: center;
   }
 
-  .about-container h2 {
+  .page-container h2 {
     font-size: 50px;
   }
 }
