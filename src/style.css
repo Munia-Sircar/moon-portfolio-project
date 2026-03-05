@@ -212,7 +212,7 @@ i {
   .page-container {
     display: flex;
     justify-content: center;
-    padding: none;
+    padding: 20px;
     text-align: center;
   }
 
