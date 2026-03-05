@@ -115,18 +115,12 @@ i {
   margin: auto;
 }
 
-.footer-container {
-  background-color: var(--secondary-color);
-  border-radius: 8px;
-  padding: 10px;
-}
-
-.footer-container p {
-  opacity: 60%;
-}
-
 .icons {
   margin-top: 40px;
+}
+
+.icons a {
+  display: inline;
 }
 
 .page-container {
@@ -152,6 +146,22 @@ i {
 
 .page-info {
   margin: 30px;
+}
+
+.contact-box {
+  margin-top: 80px;
+  padding: 40px;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+}
+
+.contact-box h3 {
+  font-family: var(--heading-font);
+  font-size: 40px;
+}
+
+.contact-box p {
+  opacity: 70%;
 }
 
 .active {
@@ -199,10 +209,6 @@ i {
     margin: auto;
   }
 
-  .footer-container {
-    display: flex;
-    margin: auto;
-  }
   .page-container {
     display: flex;
     justify-content: center;
