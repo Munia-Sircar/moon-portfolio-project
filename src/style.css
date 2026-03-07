@@ -1,8 +1,8 @@
 :root {
   --heading-font: "Playfair Display ", serif;
   --secondary-font: "Poppins", sans-serif;
-  --primary-color: #6c63ff;
-  --secondary-color: #ede9fa;
+  --primary-color: #30874e;
+  --secondary-color: #fcfae6;
 }
 
 body {
@@ -168,6 +168,13 @@ i {
   color: var(--primary-color) !important;
 }
 
+.contact-info {
+  a {
+    color: var(--primary-color);
+    max-width: 20%;
+  }
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
@@ -222,5 +229,10 @@ i {
 
   .navbar-brand {
     margin-left: 0;
+  }
+  .contact-info {
+    a {
+      max-width: 100%;
+    }
   }
 }
