@@ -175,6 +175,11 @@ i {
   }
 }
 
+.website-link {
+  color: var(--primary-color);
+  display: inline;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
